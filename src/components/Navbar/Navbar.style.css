@@ -1,0 +1,27 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff6700;
+    padding: 10px 100px;
+}
+
+.navbar-left a img{
+    width: 100px;
+}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.navbar-right a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar-right a:hover{
+    text-decoration: underline;
+}
